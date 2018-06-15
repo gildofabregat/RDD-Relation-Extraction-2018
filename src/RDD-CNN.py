@@ -13,11 +13,11 @@ configuration_pr = json.load(open("configurations/configuration_preprocess_artic
 configuration_exp = json.load(open("configurations/configuration_CNN_article.json"))[0]
 np.random.seed(configuration_exp["seed"])
 
-f = gzip.open(configuration_pr["outputFilePath"][3:], 'rb')
+f = gzip.open(configuration_pr["outputFilePath"], 'rb')
 yTrain, sentenceTrain, positionTrain1, positionTrain2 = pkl.load(f)
 f.close()
 
-f = gzip.open(configuration_pr["embeddingsPklPath"][3:], 'rb')
+f = gzip.open(configuration_pr["embeddingsPklPath"], 'rb')
 embeddings = pkl.load(f)
 f.close()
 
