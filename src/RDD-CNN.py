@@ -57,7 +57,7 @@ def create_model():
     d = Conv1D(nb_filter=configuration_exp["nb_filter"], filter_length=configuration_exp["filter_length"],activation='relu')(d)
     d = GlobalMaxPooling1D()(d)
 
-    d = Dropout(0.25)(d)
+    d = Dropout(0.5)(d)
     c = Dense(n_out, activation='softmax')(d)
 
     model = Model(inputs=[inputWord, inputDistance1, inputDistance2], outputs=c)
@@ -86,7 +86,7 @@ max_prec, max_rec, max_acc, max_f1 = 0,0,0,0
 
 
 n_folds = 10
-skf = StratifiedKFold(n_splits=n_folds,shuffle=True,random_state=123)
+skf = StratifiedKFold(n_splits=n_folds,shuffle=True)
 cvscores = []  
 fold = 0
 cvprec = []
