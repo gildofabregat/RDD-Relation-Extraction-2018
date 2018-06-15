@@ -1,0 +1,12 @@
+[
+	{
+		"batch_size" 	: 128,	
+		"nb_filter" 	: 100,
+		"filter_length"	: 3,
+		"hidden_dims" 	: 100,
+		"nb_epoch" 	: 20,
+		"position_dims"	: 50,
+		"seed":1578
+
+	}
+]
