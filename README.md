@@ -7,8 +7,8 @@ This work explains the details for the reproduction of the results obtained with
 To carry out this experiment we have made use of the relationships file provided in the RDD corpus. This file includes annotations about relationships between disabilities and rare diseases that appear in the different sentences. Each line follows the following format.
 
 1. The first column is the label, which may be:
-..* rd-dis: if the sentence expresses a relationship between disability and rare disease
-..* none: if the sentence does not clearly and unambiguously express a relationship between disability and rare disease.
+	1. rd-dis: if the sentence expresses a relationship between disability and rare disease
+	2. none: if the sentence does not clearly and unambiguously express a relationship between disability and rare disease.
 2. The second column indicates the word where the rare disease begins. 
 3. The third column indicates the word where the disability begins.
 4. The last column is the tokenized sentence.
