@@ -91,12 +91,9 @@ print("Max Sentence Lengths: ",maxSentenceLen)
 word2Idx   = {}
 embeddings = [] 
 
-fEmbeddingsvoc = gzip.open(configuration["embeddingsPathvoc"]) if configuration["embeddingsPathvoc"].endswith('.gz') else open(configuration["embeddingsPathvoc"])
 fEmbeddingsvec = gzip.open(configuration["embeddingsPathvec"]) if configuration["embeddingsPathvec"].endswith('.gz') else open(configuration["embeddingsPathvec"])
 
-
 for line in fEmbeddingsvec:
-    split_voc = fEmbeddingsvoc.next().strip().split("\t")
     split = line.strip().split("\t")
 
     if len(word2Idx) == 0: #Add padding+unknown
@@ -108,9 +105,7 @@ for line in fEmbeddingsvec:
 
     if split[0].lower() in words:
         embeddings.append(np.array([float(num) for num in split[0:]]))
-        word2Idx[split_voc[0]] = len(word2Idx)
-
-
+        word2Idx[split[0]] = len(word2Idx)
 
 embeddings = np.array(embeddings)
 
