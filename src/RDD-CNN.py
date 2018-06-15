@@ -57,7 +57,6 @@ def create_model():
   #plot_model(model, show_shapes = True, to_file='RDD-CNN-Cross.png')
   model.compile(loss='categorical_crossentropy',optimizer='Adam', metrics=['accuracy'])
   model.summary()
-  model.save("relation_extraction_model.h5")
   return model
 
 
@@ -79,7 +78,7 @@ max_prec, max_rec, max_acc, max_f1 = 0,0,0,0
 
 
 n_folds = 10
-skf = StratifiedKFold(n_splits=n_folds)
+skf = StratifiedKFold(n_splits=n_folds,shuffle=True,random_state=123)
 cvscores = []  
 fold = 0
 cvprec = []
