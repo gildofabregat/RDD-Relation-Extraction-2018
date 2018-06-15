@@ -1,8 +1,9 @@
 [
-	{
-		"outputFilePath": "data/pkl/sem-relations.pkl.gz",
-		"embeddingsPklPath" : "data/pkl/embeddings.pkl.gz",
-		"embeddingsPathvec" : "data/levy_word_emb/deps.words",
-		"folder" : "data/files/"
-	}
+        {
+                "outputFilePath": "data/pkl/sem-relations.pkl.gz",
+                "outputFilePath2": "data/pkl/utils.pkl.gz",
+                "embeddingsPklPath" : "data/pkl/embeddings.pkl.gz",
+                "embeddingsPathvec" : "data/levy_word_emb/deps.words",
+                "folder" : "data/files/"
+        }
 ]
