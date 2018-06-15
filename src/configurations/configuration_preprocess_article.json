@@ -2,8 +2,7 @@
 	{
 		"outputFilePath": "data/pkl/sem-relations.pkl.gz",
 		"embeddingsPklPath" : "data/pkl/embeddings.pkl.gz",
-		"embeddingsPathvoc" : "data/bio-embedding-pyysalo/ri-3gram-400-tsv/vocab.tsv",
-		"embeddingsPathvec" : "data/bio-embedding-pyysalo/ri-3gram-400-tsv/vectors.tsv",
+		"embeddingsPathvec" : "data/levy_word_emb/deps.words",
 		"folder" : "data/files/"
 	}
 ]
