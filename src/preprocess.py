@@ -1,5 +1,5 @@
 '''
-Some of the following code is inspired or based on the repository:
+Some of the following functions have been adapted from the code on the repository:
 https://github.com/UKPLab/deeplearning4nlp-tutorial
 '''
 import numpy as np
