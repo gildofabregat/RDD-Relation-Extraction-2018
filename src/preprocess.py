@@ -1,3 +1,7 @@
+'''
+Some of the following code is inspired or based on the repository:
+https://github.com/UKPLab/deeplearning4nlp-tutorial
+'''
 import numpy as np
 import cPickle as pkl
 from nltk import FreqDist
