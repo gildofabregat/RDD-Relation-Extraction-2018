@@ -22,7 +22,7 @@ rd-disab 0 12 Fragile X syndrome FXS is the most frequent inherited form of huma
 This file is located at: src/data/files/train-todo.txt
 
 
-## Instructions for run the experiment
+## Instructions for running the experiment
 For this experiment Dependency-Based Word Embeddings has been used [1]
 ```bash
 curl http://u.cs.biu.ac.il/~yogo/data/syntemb/deps.words.bz2 --output deps.words.bz2
