@@ -16,12 +16,12 @@ This repository is divided as follows:
 	│	|	│	└── configuration_*.json
 	│	├── RDD-CNN.py (File which contains the routines for creating and training the model)
 	│	├── preprocess.py (Script for corpus preprocessing)    
-	|	├── trained-model (or build)
-	│	|	├── RDD-CNN.h5
-	│	|	├── predictions.txt
-	│	|	└── real.txt
-	|	├── Readme.md
-	|	└── requirements.txt
+	├── trained-model (or build)
+	|	├── RDD-CNN.h5
+	|	├── predictions.txt
+	|	└── real.txt
+	├── Readme.md
+	└── requirements.txt
 
 ## Corpus RDD
 To carry out this experiment we have used the relationships file provided in the RDD corpus. This file includes annotations about relationships between disabilities and rare diseases that appear in the different sentences. Each line follows the following format.
