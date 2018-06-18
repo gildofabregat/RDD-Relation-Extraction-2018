@@ -1,16 +1,16 @@
 # Relation Extraction - RDD Corpus
 
-This work explains the details for the reproduction of the results obtained with the RDD corpus in the task of detecting relationships between rare diseases and disabilities.
+This document explains the details for the reproduction of the results obtained with the RDD corpus in the task of detecting relationships between rare diseases and disabilities[2].
 
 
 ## Corpus RDD
-To carry out this experiment we have made use of the relationships file provided in the RDD corpus. This file includes annotations about relationships between disabilities and rare diseases that appear in the different sentences. Each line follows the following format.
+To carry out this experiment we have used the relationships file provided in the RDD corpus. This file includes annotations about relationships between disabilities and rare diseases that appear in the different sentences. Each line follows the following format.
 
 1. The first column is the label, which may be:
 	1. rd-dis: if the sentence expresses a relationship between disability and rare disease
 	2. none: if the sentence does not clearly and unambiguously express a relationship between disability and rare disease.
-2. The second column indicates the word where the rare disease begins. 
-3. The third column indicates the word where the disability begins.
+2. The second column indicates the position where the rare disease begins. 
+3. The third column indicates the position where the disability begins.
 4. The last column is the tokenized sentence.
 
 
@@ -124,5 +124,11 @@ We have evaluated our model using a 10-fold cross validation.
 | CNN-W+POS       	| 75.76     	| 75.90        	| 75.57     	|
 -----------------------------------------------------------------
 
+## References
 
 [1] -  Levy, O., & Goldberg, Y. (2014). Neural word embedding as implicit matrix factorization. In Advances in neural information processing systems (pp. 2177-2185).
+
+[2] -  Lourdes Araujo, Hermenegildo Fabregat Marcos, Juan Martinez-romo (2018). Deep neural models for extracting entities and relationships in the new RDD corpus relating disabilities and rare diseases (In revision)
+
+
+
