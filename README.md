@@ -14,7 +14,7 @@ This repository is divided as follows:
 	│	│	|	└── *.pk 
 	|	│	└── configurations
 	│	|	│	└── configuration_*.json
-	│	├── RDD-CNN.py (File which contains the routines for creating and training the model)
+	│	├── RDD-CNN.py (Python code for creating and training the model)
 	│	├── preprocess.py (Script for corpus preprocessing)    
 	├── trained-model (or build)
 	|	├── RDD-CNN.h5
@@ -149,7 +149,7 @@ We have evaluated our model using a 10-fold cross validation.
 
 [1] -  Levy, O., & Goldberg, Y. (2014). Neural word embedding as implicit matrix factorization. In Advances in neural information processing systems (pp. 2177-2185).
 
-[2] -  Lourdes Araujo, Hermenegildo Fabregat Marcos, Juan Martinez-romo (2018). Deep neural models for extracting entities and relationships in the new RDD corpus relating disabilities and rare diseases (In revision)
+[2] -  Hermenegildo Fabregat Marcos, Lourdes Araujo, Juan Martinez-Romo (2018). Deep neural models for extracting entities and relationships in the new RDD corpus relating disabilities and rare diseases (In revision)
 
 
 
