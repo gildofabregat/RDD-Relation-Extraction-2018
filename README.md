@@ -2,6 +2,26 @@
 
 This document explains the details for the reproduction of the results obtained with the RDD corpus in the task of detecting relationships between rare diseases and disabilities[2].
 
+## Directory Structure
+This repository is divided as follows:
+
+	.
+	├── src 
+	│	|── data	
+	|	|	|── files
+	│	|	|	└── train-todo.txt (Text file with the corpus)
+	|	|   	|──  pkl (Intermediate directory with the preprocessed information.)
+	│	│	|	└── *.pk 
+	|	│	└── configurations
+	│	|	│	└── configuration_*.json
+	│	├── RDD-CNN.py (File which contains the routines for creating and training the model)
+	│	├── preprocess.py (Script for corpus preprocessing)    
+	|	├── trained-model (or build)
+	│	|	├── RDD-CNN.h5
+	│	|	├── predictions.txt
+	│	|	└── real.txt
+	|	├── Readme.md
+	|	└── requirements.txt
 
 ## Corpus RDD
 To carry out this experiment we have used the relationships file provided in the RDD corpus. This file includes annotations about relationships between disabilities and rare diseases that appear in the different sentences. Each line follows the following format.
