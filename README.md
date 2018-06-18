@@ -95,6 +95,7 @@ _________________________________________________________________
 ```
 
 ### Making predictions
+Set of instructions for classifying a sentence:
 ```python
 from keras.preprocessing import sequence
 from keras.models import load_model
