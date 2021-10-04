@@ -866,7 +866,6 @@ rd-disab	6	24	Patients were cognitively classified as having ALS with normal cog
 rd-disab	15	15	CONCLUSIONS This study underlines the need to consider and assess for psychotic symptoms in the frontotemporal dementia amyotrophic lateral sclerosis continuum particularly in those with C9orf72 gene expansions	.
 rd-disab	17	15	CONCLUSIONS This study underlines the need to consider and assess for psychotic symptoms in the frontotemporal dementia amyotrophic lateral sclerosis continuum particularly in those with C9orf72 gene expansions	.
 rd-disab	15	9	We hypothesized that BDNF+ would be associated with more severe cognitive impairment in subjects with WAGR syndrome	.
-rd-disab	15	9	We hypothesized that BDNF+ would be associated with more severe cognitive impairment in subjects with WAGR syndrome	.
 rd-disab	0	14	Alport syndrome is a hereditary type IV collagen disease leading to progressive renal fibrosis hearing loss and ocular changes	.
 rd-disab	18	2	Characteristic fundus night blindness peripheral visual field loss electroretinography and other manifestations led us to a diagnosis of choroideremia	.
 rd-disab	18	4	Characteristic fundus night blindness peripheral visual field loss electroretinography and other manifestations led us to a diagnosis of choroideremia	.
